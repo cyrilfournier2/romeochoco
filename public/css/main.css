@@ -1,0 +1,219 @@
+
+.navbar-toggle{
+background-color: #bb1917 ;
+    color: white;
+}
+.titre, .titre:hover {
+    background-color: white ;
+    color: #bb1917;
+    text-align: center;
+}
+.bouton-nav p{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.bouton-nav{
+    color: #bb1917;
+    padding-top: 50px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+
+}
+.bouton-nav:hover{
+    background-color: #bb1917;
+    color: white;
+}
+.bouton-nav-small{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color : #bb1917;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+
+}
+.bouton:hover{
+     background-color: #bb1917;
+     color: white;
+ }
+.bouton{
+    color : #bb1917;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #bb1917;
+    border-radius : 10px;
+
+}
+.bouton-nav-small:hover{
+    background-color: #bb1917;
+    color: white;
+}
+.nav-selected{
+    background-color: #bb1917;
+    color: white;
+}
+.navbar-center {
+    width: 100%;
+    text-align: center;
+
+}
+.navbar-center li {
+    float: none;
+    display: inline-block;
+}
+.navbar-custom{
+     position: fixed;
+     width: 109%;
+     background-color: white;
+     height: 100%;
+     max-height: 150px;
+     border-radius: 0;
+     top: 0;
+     border-width: 0 0 1px;
+ }
+.navbar-custom-back{
+      position: absolute;
+      width: 109%;
+      background-color: white;
+      height: 100%;
+      max-height: 150px;
+      border-radius: 0;
+      top: 0;
+      border-width: 0 0 1px;
+  }
+.logo-small{
+    max-width: 50px;
+}
+.main-container{
+    padding-top: 13%;
+}
+.font-accueil{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+#corps{
+   /* padding-top: 1%;*/
+}
+section{
+    padding-top: 1%;
+}
+.img-firstpage{
+    padding-top: 3%;
+    max-height: 700px;
+}
+#img-histoire{
+    padding-top: 10%;
+}
+#img-produit{
+}
+#text-page4,#text-page5{
+    padding-top: 5%;
+}
+#page2{
+    padding-top: 5%;
+}
+#page3{
+    padding-top: 3%;
+}
+#page4{
+    padding-top: 5%;
+}
+#page5{
+  padding-top: 4%;
+}
+#page6{
+     padding-top: 5%;
+ }
+.text-produit{
+    color: white;
+    font-size: 15px;
+}
+
+#videosList {
+    overflow: hidden;
+  /*  background-image: url('../img/video-img.JPG');*/
+}
+#videosList2 {
+    overflow: hidden;
+    /* background-image: url('../img/jairecu.JPG');*/
+}
+
+.video {
+    height: 100%;
+}
+.thevideo{
+    display: none;
+    width:170%;
+}
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+.box {
+    text-align: center;
+    position: absolute;
+    background-color: rgba(255,255,255,0.6);
+    vertical-align: middle;
+    width: 50%;
+    left : 25%;
+    height: 50%;
+    top : 23%;
+    z-index: 1000;
+}
+.btn-video, .btn-video:hover{
+    color: dimgray;
+}
+.btn {
+    font-size: 18px;
+}
+#img-cover1{
+    width: 100%;
+}
+.img-cover{
+    height: 100%;
+}
+
+
+footer{
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    color: #bb1917;
+    border-top: 2px solid #bb1917;
+    height: 40px;
+}
+.mentions-legales{
+    font-weight: bold;
+    text-align: center;
+    color: #bb1917;
+}
+.text-profile{
+    font-weight: bold;
+    text-align: center;
+    color: #bb1917;
+}
+.text-profile-content{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.c-max-height{
+    heigth: 100%
+}
+
+.horizontal-space{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+.profile-box{
+    border: 1px solid #bb1917;
+    border-radius: 10px;
+}
